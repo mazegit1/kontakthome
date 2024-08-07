@@ -1,12 +1,11 @@
 import React from 'react'
 import corporativeimg from '../assets/img/corporation.jpg'
-import Footer from '../components/Footer';
-
+import Footer from '../components/Footer'
 const Corporative = () => {
   return (
  <>
- <div className="wrapper flex-col justify-between flex items-center ">
- <div className="corporations grid grid-cols-2 mt-20 mx-10">
+ <div className="wrapper bg-gray-200 h-[100%] flex-col justify-between flex items-center">
+ <div className="corporations mx-20 mb-8 grid grid-cols-2 mt-20">
 <div className="corporations-left mt-[14%]">
     <h1 className='text-3xl text-red-600 font-semibold mb-16 '>Корпоративные продажи
       </h1>
@@ -24,8 +23,10 @@ const Corporative = () => {
   <img src={corporativeimg} className='scale-[70%] mt-[-0%] ml-10%' />
  </div>
 </div>
-      <Footer />
-</div>
+<Footer/>
+ </div>
+ 
+
 
  </>
   )

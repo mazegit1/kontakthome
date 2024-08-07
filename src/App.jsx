@@ -17,7 +17,7 @@ const App = () => {
         <Route path="/corporative" element={<Corporative />} />
       </Routes>
     </BrowserRouter>
-   
+  
    
 
   );

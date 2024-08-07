@@ -4,7 +4,7 @@ import headerlogo from '../../assets/img/header-logo.svg';
 function Navbar() {
   return (
 <>
-   <header className='flex items-center justify-between px-20 pt-5'>
+   <header className='flex mb-6 items-center justify-between px-20 pt-5'>
     <div className="header-logo">
        <a href="/"> <img src={headerlogo } className='w-52 cursor-pointer' alt="" /></a>
     </div>
